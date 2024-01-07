@@ -1,0 +1,8 @@
+
+-- Panels
+~4x5 (per weekday) timeslots per panel.
+Look at email for features in the panel.
+Change only (Time Slot features) & (Customer features).
+
+Visualization with counteplots:
+https://rmazzine.com/2023/06/13/measuring-counterfactual-explanations-feature-importance-with-counterplots/

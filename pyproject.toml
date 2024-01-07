@@ -1,0 +1,39 @@
+[tool.poetry]
+authors = ["Your Name <you@example.com>"]
+description = ""
+name = "heuristic"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+boto3 = "^1.26.8"
+catboost = "^1.1"
+dill = "^0.3.6"
+hgs-vrptw = {version = "^0.4.0", source = "hv"}
+loguru = "^0.6.0"
+mgzip = "^0.2.1"
+more-itertools = "^9.0.0"
+numba = "^0.56.4"
+numpy = "^1.23.3"
+pandas = "^1.5.0"
+pandera = "^0.13.3"
+python = "^3.8"
+scikit-learn = "^1.1.3"
+tqdm = "^4.64.1"
+utm = "^0.7.0"
+vrpy = "^0.5.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.10.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.17.1"
+
+[[tool.poetry.source]]
+default = false
+name = "hv"
+secondary = false
+url = "http://git.ltplabs.net/api/v4/projects/268/packages/pypi/simple"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]

@@ -1,0 +1,5 @@
+{"run_id": "FinalTests", "perc": 0.3, "feature_set": "small"
+    , "gp_predictors": ["slotcost", "slot_start", "exact_selection_customer_perc", "rank_cost", "median_cost", "partial_selection_customer_perc", "expanding_avg_days_to_delivery", "days_since_first_purchase", "q1_cost", "max_cost", "min_cost", "slot_width"], "include_bool_vars": false
+        , "model": "(((x2*x9)-aq(x1,-7645.436000))+((x8*x3)*(x4-x0)))", "model_score_train": 0.4081086678110162, "ci_min": 0.4224565219772459, "ci_max": 0.4290419291770263
+        , "walkaway_expr": "(1/(1 + math.e**((selection_probability - .3638) / .09425)))"}
+        
